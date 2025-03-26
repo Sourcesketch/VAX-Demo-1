@@ -30,6 +30,15 @@
         color: var(--white-color);
         font-size: 20px;
     }
+    .about-area .tab-content .tab-pane p {
+        font-size: 24px;
+    }
+    .about-area .nav-tabs .nav-item .nav-link {
+        font-size: 18px;
+    }
+    .hero-counter-area .count-text {
+        font-size: 40px;
+    }
 }
 
 
@@ -231,6 +240,17 @@
     .single-page-hero-area h2 {
         font-size: 90px;
     }
+    .about-area .tab-content .tab-pane p {
+        font-size: 18px;
+        line-height: 34px;
+    }
+    .about-area .nav-tabs .nav-item .nav-link {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .hero-counter-area .count-text {
+        font-size: 30px;
+    }
 }
 
 
@@ -268,6 +288,17 @@
         top: 0;
     }
 
+    .about-area .tab-content .tab-pane p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .about-area .nav-tabs .nav-item .nav-link {
+        font-size: 14px; 
+        line-height: 22px;
+    }
+    .hero-counter-area .count-text {
+        font-size: 24px;
+    }
     .contact-content-part {
         margin-bottom: 30px;
     }
@@ -463,7 +494,13 @@
 
 }
 
-
+@media  screen and (max-width: 575px) {
+    .about-area .tab-content .tab-pane p {
+        font-size: 18px;
+        line-height: 34px;
+        padding: 8px 16px 0px;
+    }
+}
 /* Wide Mobile vertical Layout: 480px. */
 
 @media only screen and (min-width: 540px) and (max-width: 767px) {
@@ -692,20 +729,26 @@
     }
 }
 
-@media only screen and (min-width: 991) and (max-width: 1024px) {
+@media only screen and (min-width: 991px) and (max-width: 1024px) {
     .rotate-svg {
         width: 60%;
         height: 60%;
     }
 }
 
-@media only screen and (max-width: 990) {
+@media only screen and (min-width: 540px) and (max-width: 990px) {
     .rotate-svg {
         width: 50% !important;
         height: 50% !important;
     }
 }
 
+@media only screen and (max-width: 539px) {
+    .rotate-svg {
+        width: 45% !important;
+        height: 45% !important;
+    }
+}
 @media only screen and (max-width: 479px) {
     .resume-item .content h4 {
         font-size: 20px;
