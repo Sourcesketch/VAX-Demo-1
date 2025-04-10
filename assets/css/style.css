@@ -2048,7 +2048,9 @@ ul.extra-skills li i {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     overflow: hidden;
-    border-radius: 0.5em
+    border-radius: 0.5em;
+     
+
 }
 
 .portfolio-box:after {
