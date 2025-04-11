@@ -1,0 +1,29 @@
+# Ignore OS-generated files
+.DS_Store          # macOS
+Thumbs.db          # Windows
+*.swp              # Vim swap files
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore Python cache/compiled files
+__pycache__/
+*.pyc
+
+# Ignore IDE files (VSCode, JetBrains)
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore build/output directories
+dist/
+build/
+out/
+
+# Ignore environment files (sensitive data!)
+.env
+.env.local
+
+*.mp4assets/images/projects/Ndhula LXT Video.mp4
