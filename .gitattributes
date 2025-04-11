@@ -1,0 +1,2 @@
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/images/projects/Ndhula[[:space:]]LXT[[:space:]]Video.mp4 filter=lfs diff=lfs merge=lfs -text
